@@ -1,5 +1,6 @@
 import React, { Component }  from 'react'
 import AddTodo from '../AddTodo/AddTodo'
+import TodoList from '../TodoList/TodoList'
 import './Todos.css'
 
 class Todos extends Component {
@@ -7,6 +8,7 @@ class Todos extends Component {
     return (
       <main className="Todos">
         <AddTodo />
+        <TodoList />
       </main>
     )
   }
